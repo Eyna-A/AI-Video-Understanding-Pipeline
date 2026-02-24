@@ -1,4 +1,5 @@
 AI-Powered Video Understanding Pipeline 🚀
+
 This project is a comprehensive, end-to-end solution designed to transform raw video content into structured, searchable, and analyzable knowledge. By leveraging state-of-the-art AI models, it automates the transition from visual/auditory data to high-quality academic-style documentation.
 
 🧠 Core System Architecture
