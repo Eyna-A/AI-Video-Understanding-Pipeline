@@ -6,10 +6,15 @@ The pipeline is built on a modular architecture, ensuring scalability and precis
 
 Key Features & Workflow:
 Automated Video Ingestion: Seamless video retrieval using yt-dlp, supporting various platforms and ensuring reproducible input acquisition.
+
 Media Preprocessing: Advanced audio extraction and loudness normalization via MoviePy and FFmpeg to ensure maximum compatibility with ASR engines.
+
 Intelligent Speech Recognition: Powered by OpenAI's Whisper, providing high-accuracy transcription with automatic language detection and timestamp-aware decoding.
+
 Scalable Text Transformation: A robust chunk-based processing engine designed to handle long-form content without losing context or hitting token limits.
+
 Semantic Structuring & Translation: Integration with OpenRouter API (LLMs) to perform multilingual translation, semantic organization, and academic-style formatting.
+
 Visual Moment Extraction: Intelligent keyframe extraction to capture salient visual information, enabling a truly multimodal understanding of the content.
 
 🛠 Tech Stack
