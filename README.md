@@ -8,10 +8,15 @@ The pipeline is built on a modular architecture, ensuring scalability and precis
 🚀 Key Features
 
 📥 Video Ingestion: Automated retrieval via yt-dlp for reproducible input.
+
 🛠️ Preprocessing: Audio extraction & normalization using MoviePy & FFmpeg.
+
 🗣️ ASR Engine: High-accuracy transcription with Whisper (Multilingual + Timestamps).
+
 📝 Text Processing: Context-aware chunking for long-form content handling.
+
 🤖 AI Structuring: Semantic organization & academic formatting via OpenRouter.
+
 🖼️ Visual Analysis: Salient keyframe extraction for multimodal insights.
 
 🛠 Tech Stack
