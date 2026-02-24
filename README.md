@@ -5,18 +5,18 @@ This project is a comprehensive, end-to-end solution designed to transform raw v
 🧠 Core System Architecture
 The pipeline is built on a modular architecture, ensuring scalability and precision at each stage of the media understanding process. It integrates multiple AI domains, including Speech-to-Text (ASR), Natural Language Processing (NLP), and Computer Vision.
 
-Key Features & Workflow:
-Automated Video Ingestion: Seamless video retrieval using yt-dlp, supporting various platforms and ensuring reproducible input acquisition.
+🚀 Key Features
+📥 Video Ingestion: Automated retrieval via yt-dlp for reproducible input.
 
-Media Preprocessing: Advanced audio extraction and loudness normalization via MoviePy and FFmpeg to ensure maximum compatibility with ASR engines.
+🛠️ Preprocessing: Audio extraction & normalization using MoviePy & FFmpeg.
 
-Intelligent Speech Recognition: Powered by OpenAI's Whisper, providing high-accuracy transcription with automatic language detection and timestamp-aware decoding.
+🗣️ ASR Engine: High-accuracy transcription with Whisper (Multilingual + Timestamps).
 
-Scalable Text Transformation: A robust chunk-based processing engine designed to handle long-form content without losing context or hitting token limits.
+📝 Text Processing: Context-aware chunking for long-form content handling.
 
-Semantic Structuring & Translation: Integration with OpenRouter API (LLMs) to perform multilingual translation, semantic organization, and academic-style formatting.
+🤖 AI Structuring: Semantic organization & academic formatting via OpenRouter.
 
-Visual Moment Extraction: Intelligent keyframe extraction to capture salient visual information, enabling a truly multimodal understanding of the content.
+🖼️ Visual Analysis: Salient keyframe extraction for multimodal insights.
 
 🛠 Tech Stack
 Core Logic: Python 3.11+
@@ -25,7 +25,8 @@ Media Processing: FFmpeg, MoviePy, OpenCV
 Environment: Decoupled architecture for easy integration with Backend/UI layers
 
 📂 Project Structure
-As seen in the repository, the logic is strictly organized:
-ai/: Contains all core processing modules (transcription, summarization, etc.).
-data/: Local storage for processed audio and extracted keyframes.
-requirements.txt: Managed dependencies for easy setup.
+ai/ : Core logic (Transcription, Summarization, Pipeline).
+
+data/ : Local storage (Audio assets, Keyframes).
+
+requirements.txt : Dependency management.
