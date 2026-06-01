@@ -11,19 +11,19 @@ def process_video(video_url: str) -> dict:
     Must return ONLY what backend needs.
     """
 
-    # 1️⃣ Download video
+    #  Download video
     video_path = download_video(video_url)
 
-    # 2️⃣ Extract audio
+    #  Extract audio
     audio_path = extract_audio(video_path)
 
-    # 3️⃣ Speech → Text
+    #  Speech → Text
     transcript, language = speech_to_text(audio_path)
 
-    # 4️⃣ Generate summary (inside summarize module)
+    #  Generate summary
     summary = translate_and_structure(transcript)
 
-    # 5️⃣ Return clean contract (NO extra data)
+    #  Return clean contract 
     return {
         "status": "success",
         "summary": summary,
