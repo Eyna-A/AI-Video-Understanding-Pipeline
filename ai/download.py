@@ -3,7 +3,6 @@ import subprocess
 
 
 def download_video(url, output_path="data/videos/video.mp4"):
-    # مطمئن شو پوشه وجود دارد
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     cmd = [
