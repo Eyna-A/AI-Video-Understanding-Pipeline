@@ -3,7 +3,7 @@ from moviepy import VideoFileClip
 
 
 def extract_audio(video_path, output_path="data/audio/audio.wav"):
-    # حتماً پوشه ساخته شود (جلوگیری از BrokenPipe در ویندوز)
+    
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     clip = VideoFileClip(video_path)
